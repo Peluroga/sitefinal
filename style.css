@@ -1,0 +1,186 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+hr{
+border: solid #000 1px;
+margin: 20px;
+
+
+}
+body{
+
+background: #ccc;
+background-image: url(papel-de-parede-plano-de-pipoca_738849-1384.avif);
+
+}
+#site{
+
+width: 1024px;
+background: #FFF;
+border-radius: 15px;
+margin: 20px auto;
+min-height: 500px;
+
+
+}
+#topo{
+
+padding: 20px;
+
+}
+#topo h2{
+
+font-family: 'Anton', sans-serif;
+text-align: left;
+
+}
+#buscas{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  
+  }
+  #buscar{
+     border: 2px solid #515151;
+     padding: 3px;
+  
+  }
+  #buscar button{
+      background: transparent;
+      cursor: pointer;   
+  }
+  #buscar button svg{
+      transition: all 300ms;
+  
+  }
+  #buscar button:hover svg{
+      stroke: #888;
+  
+  }
+.estrelas{
+height: 28px;
+width: 128px;
+
+}
+nav{
+
+background: #b12a2a;
+display: flex;
+gap: 20px;
+justify-content: center;
+margin-top: 20px;
+
+}
+nav a{
+
+color: #ffffff;
+text-decoration: none;
+display: inline-block;
+padding: 5px;
+    
+}
+h2{
+
+font-size: 2em;
+margin: 5px 20px;
+font-family: 'Anton', sans-serif;
+
+}
+h1{
+
+font-size: 2em; 
+margin: 15px;
+font-family: 'Anton', sans-serif;
+
+} 
+h3{
+margin: 0px 15px 15px;
+font-size: 0.75em;
+color: #555;
+
+}  
+#imagem-CC{
+height: 500px;
+width: 800px;
+margin: 15px;
+border-radius: 15px;
+
+} 
+#formulario{
+background-color: #fff;
+width: 1024px;
+margin: 0 auto;
+padding: 15px;
+border-radius: 15px;
+    
+    
+}
+#formulario label{   
+display: block;
+font-weight: bold;
+font-style: italic;
+
+
+}
+#formulario textarea{
+width: 100%;
+height: 75px;
+border: #ccc solid 2px;
+
+}
+.btn{
+background-color: #333;
+color: #FFF;
+border-radius: 5px;
+padding: 5px;
+border: none;
+display: flex;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+transition: all 500ms;
+
+}
+.btn:hover{
+background: #555;
+
+}
+
+.comentario{
+background-color: #fff;  
+width: 800px;
+margin: 10px auto;
+border: #555 solid 2px;
+padding: 15px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.avatar{
+border-radius: 50%;
+border: 1px solid #555
+} 
+.comentario h2{
+font-size: 1.5em;
+margin: 12px; 
+color: #b12a2a;   
+  
+}
+.comentario p{
+margin-bottom: 10px;
+  
+}
+#rodape{
+font-family: 'Anton', sans-serif;
+display: flex;
+justify-content: center;
+text-align: center;
+
+
+}
