@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+
+        <div id="site">
+            <h1>Formulário Contato</h1>
+
+            <form action="https://www.botecodigital.dev.br/web/processar.php" method="POST">
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Ex.Pedro" value="Pedro">
+                </div>
+                <div>
+                     <label for="assunto">assunto</label>
+                     <input type="text" name="assunto" id="assunto">
+
+
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" required name ="email" id="email" value="pedro@gmail.com">
+                </div>
+                <div>
+                     <label for="UF">UF</label>
+                     <select name="UF" id="UF">
+                     <Option value="SC">Santa Catarina</Option>
+                     <Option value="RS">Rio Grande do Sul</Option>
+                     <Option value="PR">Paraná</Option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Prioritario</legend>
+                        <input type="radio" name="Prioritario" id="sim" value="sim">
+                        <label for="Prioritario">Sim</label>
+                        <br>
+                        <input type="radio" name="Prioritario" id="nao" value="nao">
+                        <label for="Prioritario">Não</label>
+                        <br>
+                    </fieldset>
+                </div>
+                <div>
+                     <label for="mensagem">Mensagem</label>
+                     <textarea name="mensagem" id="mensagem" cols="60" rows="6"></textarea>
+
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+            <div class="prosseguir">
+                <hr>
+                <footer id="rodape">
+                 Formulário RS - 31836840000112
+                </footer>
+        </div>
+    </html>
